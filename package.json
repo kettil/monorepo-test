@@ -1,0 +1,42 @@
+{
+  "name": "package-name",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "license": "ISC",
+  "author": "<package-author> <<package-email>>",
+  "keywords": [],
+  "engines": {
+    "node": ">=16.12",
+    "npm": ">=8.1"
+  },
+  "scripts": {
+    "start": "node ./build/index.js",
+    "dev": "npx carna start -w",
+    "analyse": "npx carna analyse",
+    "build": "npx carna build",
+    "test": "npx carna test",
+    "precarna:build": "rm -rf ./build ./packages/*/build",
+    "prepare": "[ \"$CI\" != \"\" ] || ( ls node_modules/husky > /dev/null 2>&1 && husky install ./node_modules/carna/configs/husky )"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kettil/github-repo"
+  },
+  "bugs": {
+    "url": "https://github.com/kettil/github-repo/issues/new"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/node": "16.11.6",
+    "carna": "6.1.0",
+    "typescript": "4.4.4"
+  }
+}

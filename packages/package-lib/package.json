@@ -1,0 +1,31 @@
+{
+  "name": "package-name-lib",
+  "version": "0.1.0",
+  "description": "",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "private": true,
+  "license": "ISC",
+  "author": "<package-author> <<package-email>>",
+  "keywords": [],
+  "engines": {
+    "node": ">=16.12",
+    "npm": ">=8.1"
+  },
+  "scripts": {
+    "start": "node ./build/bin/index.js",
+    "dev": "npx carna start -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kettil/github-repo"
+  },
+  "bugs": {
+    "url": "https://github.com/kettil/github-repo/issues/new"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

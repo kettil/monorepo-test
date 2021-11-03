@@ -1,0 +1,26 @@
+{
+  "name": "package-name-app",
+  "version": "0.1.0",
+  "description": "",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "private": true,
+  "license": "ISC",
+  "author": "<package-author> <<package-email>>",
+  "keywords": [],
+  "engines": {
+    "node": ">=16.12",
+    "npm": ">=8.1"
+  },
+  "scripts": {
+    "start": "node ./build/index.js",
+    "dev": "npx carna start -w"
+  },
+  "dependencies": {
+    "@types/pino": "6.3.12",
+    "dotenv": "10.0.0",
+    "pino": "6.13.3",
+    "yup": "0.32.11"
+  },
+  "devDependencies": {}
+}

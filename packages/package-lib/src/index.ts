@@ -1,3 +1,4 @@
-import { dummy } from './lib/dummy';
 
-export { dummy };
+const solution = 42;
+
+export { solution };

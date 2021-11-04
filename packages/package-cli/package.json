@@ -19,13 +19,6 @@
     "start": "node ./build/index.js",
     "dev": "npx carna start -w"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kettil/github-repo"
-  },
-  "bugs": {
-    "url": "https://github.com/kettil/github-repo/issues/new"
-  },
   "publishConfig": {
     "access": "public"
   },

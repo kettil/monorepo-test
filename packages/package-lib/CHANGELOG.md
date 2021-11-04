@@ -1,5 +1,12 @@
 # Changelog
 
+## @flytrx/test-lib [1.1.2](https://github.com/kettil/monorepo-test/compare/@flytrx/test-lib@1.1.1...@flytrx/test-lib@1.1.2) (2021-11-04)
+
+
+### Bug Fixes
+
+* wrong number ([0b67709](https://github.com/kettil/monorepo-test/commit/0b67709aa5fb2f7b37eaab599612081d80700dc6))
+
 ## @flytrx/test-lib [1.1.1](https://github.com/kettil/monorepo-test/compare/@flytrx/test-lib@1.1.0...@flytrx/test-lib@1.1.1) (2021-11-04)
 
 

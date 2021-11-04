@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "license": "ISC",
-  "author": "<package-author> <<package-email>>",
+  "author": "Kjell Dießel <development@kettil.de>",
   "keywords": [],
   "engines": {
     "node": ">=16.12",

@@ -1,5 +1,12 @@
 # Changelog
 
+## @flytrx/test-app [1.1.2](https://github.com/kettil/monorepo-test/compare/@flytrx/test-app@1.1.1...@flytrx/test-app@1.1.2) (2021-11-04)
+
+
+### Bug Fixes
+
+* log output ([4427982](https://github.com/kettil/monorepo-test/commit/4427982ba9f2c3585502b29b71cbe1c8c0eafe7e))
+
 ## @flytrx/test-app [1.1.1](https://github.com/kettil/monorepo-test/compare/@flytrx/test-app@1.1.0...@flytrx/test-app@1.1.1) (2021-11-04)
 
 

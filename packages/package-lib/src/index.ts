@@ -1,4 +1,5 @@
 
 const solution = 42;
+const secondSolution = 13;
 
-export { solution };
+export { solution, secondSolution };

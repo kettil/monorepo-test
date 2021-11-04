@@ -1,5 +1,5 @@
 {
-  "name": "package-name-cli",
+  "name": "@flytrx/test-cli",
   "version": "0.1.0",
   "description": "",
   "main": "build/index.js",

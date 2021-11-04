@@ -1,5 +1,15 @@
 # Changelog
 
+## @flytrx/test-app [1.1.3](https://github.com/kettil/monorepo-test/compare/@flytrx/test-app@1.1.2...@flytrx/test-app@1.1.3) (2021-11-04)
+
+
+
+
+
+### Dependencies
+
+* **@flytrx/test-lib:** upgraded to 1.1.2
+
 ## @flytrx/test-app [1.1.2](https://github.com/kettil/monorepo-test/compare/@flytrx/test-app@1.1.1...@flytrx/test-app@1.1.2) (2021-11-04)
 
 

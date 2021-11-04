@@ -1,5 +1,12 @@
 # Changelog
 
+# @flytrx/test-lib [1.1.0](https://github.com/kettil/monorepo-test/compare/@flytrx/test-lib@1.0.0...@flytrx/test-lib@1.1.0) (2021-11-04)
+
+
+### Features
+
+* third arguments ([5e65691](https://github.com/kettil/monorepo-test/commit/5e656913236c1927cfa8f3abad194cb6caf1e577))
+
 # @flytrx/test-lib 1.0.0 (2021-11-04)
 
 

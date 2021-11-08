@@ -17,12 +17,15 @@
     "build": "npx carna build",
     "test": "npx carna test",
     "precarna:build": "rm -rf ./build ./packages/*/build",
-    "prepare": "[ \"$CI\" != \"\" ] || ( ls node_modules/husky > /dev/null 2>&1 && husky install ./node_modules/carna/configs/husky )"
+    "prepare": "[ \"$CI\" != \"\" ] || ( ls _node_modules/husky > /dev/null 2>&1 && husky install ./node_modules/carna/configs/husky || true )"
   },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/exec": "6.0.2",
+    "@semantic-release/git": "10.0.1",
     "@types/node": "16.11.6",
     "carna": "6.2.0",
     "multi-semantic-release": "2.10.0",

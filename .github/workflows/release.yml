@@ -10,7 +10,7 @@ on:
 
 jobs:
   release:
-    if: ${{ false }} # disable for now
+    #if: ${{ false }} # disable for now
     name: Release
     runs-on: ${{ matrix.os }}
 
@@ -45,4 +45,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.CI_NPM_TOKEN }}
-        run: npx semantic-release
+        #run: npx semantic-release
+        run: npx multi-semantic-release --ignore-private-packages
+
+      - name: Release (clean up)
+        run: ./.github/cleanup.sh

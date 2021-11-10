@@ -1,5 +1,12 @@
 # Changelog
 
+## @flytrx/test-lib [1.1.11](https://github.com/kettil/monorepo-test/compare/@flytrx/test-lib@1.1.10...@flytrx/test-lib@1.1.11) (2021-11-10)
+
+
+### Bug Fixes
+
+* update lib ([2154960](https://github.com/kettil/monorepo-test/commit/2154960356391fa1f47c5e2e1dffda2323419792))
+
 ## @flytrx/test-lib [1.1.10](https://github.com/kettil/monorepo-test/compare/@flytrx/test-lib@1.1.9...@flytrx/test-lib@1.1.10) (2021-11-10)
 
 

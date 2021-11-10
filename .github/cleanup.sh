@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+sleep 10
+
 npm install --ignore-scripts --audit false
 
 git config --global user.email "${secrets.CI_USER_EMAIL}"

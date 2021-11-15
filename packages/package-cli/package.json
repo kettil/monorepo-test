@@ -27,6 +27,6 @@
     "pino": "7.1.0"
   },
   "devDependencies": {
-    "@types/pino": "6.3.12"
+    "@types/pino": "7.0.5"
   }
 }

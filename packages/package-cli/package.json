@@ -24,9 +24,7 @@
     "url": "https://github.com/kettil/monorepo-test"
   },
   "dependencies": {
-    "pino": "7.1.0"
+    "pino": "7.6.5"
   },
-  "devDependencies": {
-    "@types/pino": "6.3.12"
-  }
+  "devDependencies": {}
 }

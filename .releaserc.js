@@ -16,31 +16,11 @@ const configuration = {
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
-    /*
-    [
-      '@semantic-release/exec',
-      {
-        // eslint-disable-next-line no-template-curly-in-string -- @SR requires the notation
-        successCmd: 'echo "${nextRelease.notes}" >> test.txt',
-      },
-    ],
-    //
-    // git rev-parse --show-toplevel
-    // */
     ['@semantic-release/changelog', { changelogFile, changelogTitle }],
     '@semantic-release/npm',
     ['@semantic-release/git', { assets }],
-    [
-      '@semantic-release/github',
-      {
-        addreleases: 'bottom',
-        // successComment: false,
-        // failComment: false
-      },
-    ],
+    ['@semantic-release/github'],
   ],
-  noCi: true,
-
   repositoryUrl: 'https://github.com/kettil/monorepo-test',
   // eslint-disable-next-line no-template-curly-in-string -- @SR requires the notation
   tagFormat: '${version}',

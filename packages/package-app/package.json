@@ -24,9 +24,8 @@
   },
   "dependencies": {
     "@flytrx/test-lib": "1.1.12",
-    "@types/pino": "6.3.12",
-    "dotenv": "10.0.0",
-    "pino": "7.1.0",
+    "dotenv": "16.0.0",
+    "pino": "7.6.5",
     "yup": "0.32.11"
   },
   "devDependencies": {}

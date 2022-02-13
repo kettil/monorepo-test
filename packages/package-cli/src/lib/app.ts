@@ -4,7 +4,7 @@ const app = async ({ env, log }: { env: NodeJS.ProcessEnv; log: Logger }): Promi
   log.debug({ env }, 'ENV');
 
   // dummy await for eslint
-  await new Promise((r) => setTimeout(r, 2000));
+  await new Promise((r) => setTimeout(r, 2500));
 };
 
 export { app };

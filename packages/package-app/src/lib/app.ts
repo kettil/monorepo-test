@@ -11,6 +11,7 @@ const app = async ({ env, log }: { env: NodeJS.ProcessEnv; log: Logger }): Promi
       thirdSolution,
     },
     'foo...',
+    'baz...',
   );
 
   // dummy await for eslint

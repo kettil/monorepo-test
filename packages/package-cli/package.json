@@ -25,6 +25,5 @@
   },
   "dependencies": {
     "pino": "7.6.5"
-  },
-  "devDependencies": {}
+  }
 }

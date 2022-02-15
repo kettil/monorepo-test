@@ -14,13 +14,14 @@ const configuration = {
   ],
 
   plugins: [
-    '@semantic-release/commit-analyzer',
-    '@semantic-release/release-notes-generator',
+    ['@semantic-release/commit-analyzer'],
+    ['@semantic-release/release-notes-generator'],
     ['@semantic-release/changelog', { changelogFile, changelogTitle }],
-    '@semantic-release/npm',
+    ['@semantic-release/npm'],
     ['@semantic-release/git', { assets }],
     ['@semantic-release/github'],
   ],
+
   repositoryUrl: 'https://github.com/kettil/monorepo-test',
   // eslint-disable-next-line no-template-curly-in-string -- @SR requires the notation
   tagFormat: '${version}',
